@@ -1,0 +1,72 @@
+#profil {
+  background-color: #FDF7E4;
+}
+
+.navbar-brand {
+  font-family: "pacifico";
+}
+
+.jumbotron {
+  padding-top: 2rem;
+}
+
+.diary {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.diary h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#kolom {
+  text-align: justify;
+}
+
+#kolom2 {
+  padding-top: 1rem;
+}
+
+.card {
+  border: none;
+}
+
+#kontak h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 3rem;
+}
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#web {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  background-color: #FDF7E4;
+}
+
+.web h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.tl-justify {
+  text-align: justify;
+}
+
+#sertif {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #FDF7E4;
+}
+
+.sertif h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1em;
+}

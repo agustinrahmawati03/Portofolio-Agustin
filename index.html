@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <style>
+      #navbar {
+        background-color: #C69774 !important;
+      }
+
+      .btn.btn-success {
+        background-color: #C69774 !important;
+        border-color: #C69774 !important;
+      }
+
+      .btn.btn-primary {
+        background-color: #C69774 !important;
+        border-color: #C69774 !important;
+      }
+  
+      .footer {
+        background-color: #C69774 !important;
+        color: white; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-success shadow-p3 rounded sticky-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-aos="zoom-in" data-aos-duration="2000">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#web" data-aos="zoom-in" data-aos-duration="2000">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sertif" data-aos="zoom-in" data-aos-duration="2000">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak" data-aos="zoom-in" data-aos-duration="2000">Contact</a>
+            </li>
+          </ul>
+          <a class="navbar-brand ms-auto" data-aos="zoom-in" data-aos-duration="2000">Agustin Rahmawati</a>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!--Profil-->
+    <div id="profil">
+      <section id="welcome" class="jumbotron text-center">
+        <img src="img/Foto Diri_Agustin Rahmawati.jpeg" alt="Logo" height="150" width="220" class="rounded-circle img-thumbnail border border-3 border-dark" />
+        <h1 class="display-4">Agustin Rahmawati</h1>
+        <p class="lead"><b>Web Developer | Student College</b></p>
+      </section>
+
+      <section class="diary">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col" data-aos="zoom-in" data-aos-duration="1500">
+              <h2>Hello!</h2>
+            </div>
+          </div>
+          <div id="kolom" class="row justify-content-center">
+            <div class="col-md-5" data-aos="fade-right" data-aos-duration="1500">
+              <p>
+                I am an Informatics Engineering student at University of Lampung. I am currently focusing on software engineering and I am interested in the field of the Front-End. Familiar with front end development languages such as HTML, CSS, Tailwind, Java Script, React JS, and many frameworks. Have a leadership, spirit, teamwork, and adaptable. Able to team or individually. 
+              </p>
+            </div>
+            <div class="card-body">
+              <center><a href="https://drive.google.com/drive/folders/1ozuDt8shTyFwnPrhmpI8pipzrsro7Zx2?usp=sharing" class="btn btn-primary">Resume</a></center>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--Akhir Profil-->
+
+    <!--Project-->
+    <div class="web" id="web">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <h3 data-aos="zoom-in-down" data-aos-duration="1500">Website Project</h3>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000">
+              <img src="img/Pusat Film Online.png" class="card-img-top" alt="kisah" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Pusat Film Online (Web)</center></h5>
+                <p class="tl-justify">
+                  A simple website where you can search for film references from several genres on the website. By using themoviedb API
+                </p>
+                <a href="https://pusat-film-online-3dw4.vercel.app/" class="btn btn-primary" target="blank">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/Bookshelf.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Bookshelf (Web)</center></h5>
+                <p class="tl-justify">
+                  A simple website where you can put books on the shelf, remove books from the shelf, and choose whether the book has been read or not
+                </p>
+                <a href="https://bookshelf-et3l.vercel.app/" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/Palembang.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Palembang (Web)</center></h5>
+                <p  class="tl-justify">
+                  A simple website which describes the history, typical food and tourist attractions in Palembang City
+                </p>
+                <a href="https://palembang-web-ttnr.vercel.app/" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/Katalog Restoran.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Katalog Restoran (Web)</center></h5>
+                <p class="tl-justify">
+                  A simple website that displays a restaurant catalog with the feature of being able to choose your favorite restaurant and seeing the rating
+                </p>
+                <a href="https://katalog-restoran-him1.vercel.app/" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Akhir Project-->
+
+    <!--Sertif-->
+    <div class="sertif" id="sertif">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <h3 data-aos="zoom-in-down" data-aos-duration="1500">Certificate</h3>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/Backend.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Belajar Membuat Aplikasi Back-End untuk Pemula</center></h5>
+                <p><center>Dicoding Academy - 26 November 2023</center></p>
+                <a href="https://www.dicoding.com/certificates/1OP81G41QZQK" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000">
+              <img src="img/expert.png" class="card-img-top" alt="kisah" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Menjadi Front-End Web Developer Expert</center></h5>
+                <p><center>Dicoding Academy - 16 November 2023</center></p>
+                <a href="https://www.dicoding.com/certificates/2VX36QYK4XYQ" class="btn btn-primary" target="blank">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/fundamental.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Belajar Fundamental Front-End Web Development</center></h5>
+                <p><center>Dicoding Academy - 01 Oktober 2023</center></p>
+                <a href="https://www.dicoding.com/certificates/0LZ0Q4J4KZ65" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/pemrograman.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Belajar Dasar Pemrograman Webiste</center></h5>
+                <p><center>Dicoding Academy - 25 Agustus 2023</center></p>
+                <a href="https://www.dicoding.com/certificates/1RXY65RGMZVM" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/sertif frontend asli.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Front End Development Libraries</center></h5>
+                <p><center>freeCodeCamp - 02 April 2023</center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/sertif responsif yang asli.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Responsive Web Design</center></h5>
+                <p><center>freeCodeCamp - 29 Maret 2023</center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/design.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Database Design</center></h5>
+                <p><center>Oracle Academy - 09 Desember 2022</center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/programing.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Belajar Dasar Pemrograman Web</center></h5>
+                <p><center>Oracle Academy - 08 Desember 2022</center></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-5">
+            <div class="card" style="background-color: #DAC0A3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/pemula.png" class="card-img-top" alt="wecare" height="300" />
+              <div class="card-body">
+                <h5 class="card-title"><center>Belajar Membuat Front-End Web untuk Pemula</center></h5>
+                <p><center>Dicoding Academy - 07 September 2023</center></p>
+                <a href="https://www.dicoding.com/certificates/98XWV6720PM3" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Akhir Sertif-->
+
+    <!-- Contact -->
+<div id="kontak" style="background-color: #DED0B6">
+  <div class="container">
+    <div class="row text-center mb-2">
+      <div class="col">
+        <h2>Contact Me</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form name="porto">
+          <div class="mb-3">
+            <label for="" class="form-label"><b>Full name</b></label>
+            <input type="text" class="form-control mb-3" name="nama" />
+            <div class="mb-3">
+              <label for="email" class="form-label"><b>Email</b></label>
+              <input type="" class="form-control" id="email" name="email" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label"><b>Message</b></label>
+              <textarea class="form-control" id="pesan" rows="6" name="pesan"></textarea>
+            </div>
+            <!-- modal -->
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Confirmation</h5>
+                  </div>
+                  <div class="modal-body">Are you sure you want to send the message?</div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Yes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel2">Thank You!</h5>
+                  </div>
+                  <div class="modal-body">Thank you for sending us a message. Hope you and your family are always healthy!</div>
+                  <div class="modal-footer">
+                    <a class="btn btn-primary" href="index.html" role="button">OK!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir modal -->
+            <a class="btn btn-success mb-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Submit</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Akhir contact -->
+
+    <!-- footer -->
+    <section class="footer bg-success">
+      <div class="container-fluid">
+        <center>
+          <span>
+            <a href="https://www.instagram.com/agstn_/"> <img src="https://img.icons8.com/fluency/100/000000/instagram-new.png" style="width: 30px; height: 30px" /></a
+          ></span>
+          <span>
+            <a href="https://www.linkedin.com/in/agustin-rahmawati/"> <img src="https://img.icons8.com/office/2x/linkedin.png" style="width: 25px; height: 23px" /></a
+          ></span>
+          <span>
+            <a href="https://github.com/agustinrahmawati03"> <img src="https://img.icons8.com/ios-glyphs/2x/github.png" style="width: 30px; height: 30px" /></a
+          ></span>
+        </center>
+        <div style="text-align: center; color: black">Copyright &copy; 2023 All right reserved</div>
+        <div style="text-align: center; color: black">Designed by Agustin Rahmawati</div>
+      </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Animasi -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script>
+      gsap.from(".jumbotron img", { duration: 1.5, rotateY: 360, opacity: 0 });
+      gsap.from(".jumbotron h1", { duration: 1.5, rotateY: 360, opacity: 0 });
+      gsap.from(".jumbotron p", { duration: 1.5, rotateY: 360, opacity: 0 });
+    </script>
+    <!-- Akhir animasi -->
+
+    <!-- Mengaktifkan nav item -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("ul li a").click(function () {
+          $("li a").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+    <!-- Akhir Aktif Nav item -->
+  </body>
+</html>
